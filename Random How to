@@ -2,3 +2,7 @@
 What the link below means is that /usr/bin/stoptomcat creates a hyperlink to /opt/tomcat9/bin/shutdown.sh
 sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 
+#To check if the connection is good
+ps -ef|grep tomcat
+OR
+curl -v localhost:portnumber
