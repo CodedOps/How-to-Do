@@ -1,0 +1,4 @@
+#To Create a Link, do this...
+What the link below means is that /usr/bin/stoptomcat creates a hyperlink to /opt/tomcat9/bin/shutdown.sh
+sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
+
