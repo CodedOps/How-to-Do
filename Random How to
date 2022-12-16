@@ -8,4 +8,4 @@ OR
 curl -v localhost:portnumber
 
 #Search for installed packages
-sudo yum installed | grep wget
+yum list installed | grep wget
