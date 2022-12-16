@@ -6,3 +6,6 @@ sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 ps -ef|grep tomcat
 OR
 curl -v localhost:portnumber
+
+#Search for installed packages
+sudo yum installed | grep wget
