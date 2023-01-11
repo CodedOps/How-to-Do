@@ -2,6 +2,9 @@
 What the link below means is that /usr/bin/stoptomcat creates a hyperlink to /opt/tomcat9/bin/shutdown.sh
 sudo ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stoptomcat
 
+#To list installed apps
+Ubuntu= apt-get list --installed.
+
 #To check if the connection is good
 ps -ef|grep tomcat
 OR
